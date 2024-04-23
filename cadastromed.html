@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastromed.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-superior">
+            <div class="images">
+                <img class="logo" src="/images/Logo Superior.svg">
+                <img class="user" src="/images/Perfil.svg">
+            </div>
+        </div>
+        <div class="header-inferior">
+            <nav class="menu1">
+                <div class="menu">
+                    <img class="med" src="/images/Medicamento.svg"><a class="medi" href="">Medicamentos</a>
+                </div> 
+                <div class="menu">
+                    <img src="/images/Receitas.svg" alt=""><a href="">Receitas</a>
+                </div>
+                <div class="menu">
+                    <img src="/images/Financeiro.svg" alt=""><a href="">Financeiro</a>
+                </div>
+                <div class="menu">
+                    <img src="/images/Funcionário.svg" alt=""><a href="">Colaboradores</a>
+                </div>
+                <div class="menu">
+                    <img src="/images/Estoque.svg" alt=""><a href="">Estoque</a>
+                </div>
+                <div class="menu">
+                    <img src="/images/Novo Cliente.svg" alt=""><a href="">Cadastrar Cliente</a>
+                </div>
+                <div class="menu">
+                    <img src="/images/Configurações.svg" alt=""><a href="">Configurações</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <form>
+            <div class="divpai">
+                <div class="nome-med">
+                    <label class="nm">Nome Medicamento</label>
+                    <input class="reset-input tamanho-input-nome-med" type="">
+                </div>
+                <div class="tipo-med">
+                    <label>Tipo de Medicamento*</label>
+                    <select class="reset-input tamanho-input-tipo-med"></select>
+                </div>
+            </div>
+            <div class="divpai">
+                <div class="forma-farma">
+                    <label>Forma Farmacêutica</label>
+                    <select class="reset-input tamanho-input-forma-farma"></select>
+                </div>
+                    <div class="dosagem">
+                        <label>Dosagem</label>
+                        <input class="reset-input tamanho-input-dosagem" type="email">
+                    </div>
+            </div>        
+            <div class="divpai">
+                <div class="nome-fabricante">
+                    <label>Nome do Fabricante</label>
+                    <input class="reset-input tamanho-input-nomef" type="text">
+                </div>
+                <div class="data-validade">
+                    <label>Data de validade</label>
+                    <input class="reset-input tamanho-input-validade" type="date">
+                </div>
+            </div>
+            <div class="divpai">
+                <div class="preco">
+                    <label>Preço</label>
+                    <input class="reset-input tamanho-input-preco" type="number">
+                </div>
+                <div class="quantidade">
+                    <label for="">Quantidade em Estoque</label>
+                    <input class="reset-input tamanho-input-quant type="number">
+                </div>
+            </div>
+            <div class="botoes">
+                <a class="cancel" href="">CANCELAR</a>
+                <a class="finish" href="">FINALIZAR CADASTRO</a>
+            </div>
+        </form>
+</body>
+</html>

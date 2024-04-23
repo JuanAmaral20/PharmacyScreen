@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body, html{
+}
+
+.header-superior{
+    background-color: #0041D6;
+    height: 115px;
+    position: relative;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 25px;
+    padding-left: 656px;
+    
+}
+
+.user{
+    width: 31px;
+    height: 31px;
+    padding-top: 42px;
+    padding-right: 68px;
+}
+
+.header-inferior{
+    background-color: #2EEB8F;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu img{
+    padding-left: 33px;
+}
+
+.menu a{
+    padding-right: 55px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    color: #0041D6;
+}
+
+form{
+    padding-top: 184px;
+
+}
+
+.divpai{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    gap: 12px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    color: #0041D6;
+}
+
+.reset-input{
+    border: none;
+    border-bottom: 1px solid #000000;  
+    outline: none; 
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+
+.datanasc{
+    display: flex;
+    flex-direction: column;
+}
+
+.genero{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.telefone{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.inv{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.doc{
+    display: flex;
+    flex-direction: column;
+}
+
+.rua{
+    display: flex;
+    flex-direction: column;
+}
+
+.numero{
+    display: flex;
+    flex-direction: column;
+}
+
+.bairro{
+    display: flex;
+    flex-direction: column;
+}
+
+.complemento{
+    display: flex;
+    flex-direction: column;
+}
+
+.obs{
+    display: flex;
+    flex-direction: column;
+}
+
+.tamanho-input-nome{
+    width:430px;
+    padding-bottom:13px;
+}
+
+.tamanho-input-datanasc{
+    width:205px;
+    padding-bottom:11px;
+}
+.tamanho-input-genero{
+    width:188px;
+}
+.tamanho-input-email{
+    width:447px;
+}
+.tamanho-input-telefone{
+    width:89px;
+}
+.tamanho-input-inv{
+    width:193px;
+}
+.tamanho-input-doc{
+    width:310px;
+    padding-top:2px;
+}
+.tamanho-input-rua{
+    width:430px;
+}
+.tamanho-input-numero{
+    width:205px;
+}
+.tamanho-input-bairro{
+    width:246px;
+}
+.tamanho-input-complemento{
+    width:389px;
+}
+.tamanho-input-obs{
+    width: 647px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding-left: 310px;
+}
+
+.botoes a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cancel{
+    border: 1px solid #CB0A0A;
+    background-color: #CB0A0A;
+    border-radius: 15px;
+    width: 125px;
+    height: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.finish{
+    border: 1px solid #0041D6;
+    background-color: #0041D6;
+    border-radius: 15px;
+    width: 205px;
+    height: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
